@@ -1,13 +1,11 @@
 server:
-  port: 8760
+  port: 8759
 eureka:
-  instance:
-    hostname: client
   client:
     fetch-registry: true
     register-with-eureka: true
     service-url:
-      defultZone: http://localhost:8761/eureka
+      defultZone: http://eureka8761.com:8761/eureka,http://eureka8762.com:8762/eureka
 spring:
   application:
-    name: erueka-client-service
+    name: eureka-client

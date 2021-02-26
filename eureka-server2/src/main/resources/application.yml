@@ -1,13 +1,13 @@
 server:
-  port: 8761
+  port: 8762
 eureka:
   instance:
-    hostname: eureka8761.com #Eureka 注册服务器名称
+    hostname: eureka8762.com #Eureka 注册服务器名称
   client:
 #    register-with-eureka: false #是否注册给服务中心
 #    fetch-registry: false #是否检索服务
     service-url: #治理客户端服务域
-      defaultZone: http://eureka8762.com:8762/eureka/
+      defaultZone: http://eureka8761.com:8761/eureka/
 spring:
   application:
     name: eureka-server

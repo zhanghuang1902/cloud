@@ -1,5 +1,5 @@
 server:
-  port: 8763
+  port: 8760
 eureka:
   client:
     fetch-registry: true
@@ -8,4 +8,4 @@ eureka:
       defultZone: http://eureka8761.com:8761/eureka,http://eureka8762.com:8762/eureka
 spring:
   application:
-    name: eureka-provider
+    name: eureka-client
